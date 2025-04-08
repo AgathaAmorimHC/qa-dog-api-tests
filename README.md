@@ -12,7 +12,8 @@ Este repositório contém um projeto prático de Qualidade de Software (QA) com 
 ## 🌐 Visualizar página completa
 
 ➡️ Acesse o projeto online pelo GitHub Pages:  
-👉 [Clique aqui para abrir a documentação](https://agathaamorimhc.github.io/qa-dog-api-tests/)
+👉 [Clique aqui para abrir a documentação](https://agathaamorinhc.github.io/qa-dog-api-tests/)
+
 
 ---
 

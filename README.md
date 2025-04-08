@@ -7,6 +7,19 @@ Este repositório contém um projeto prático de Qualidade de Software (QA) com 
 - Prints de evidências
 - Documentação estruturada em HTML
 
+## 📸 Evidências Visuais
+
+Abaixo, prints demonstrando os testes automatizados executados com o Postman:
+
+### 🔹 Teste 1 – Validação da resposta bem-sucedida
+![Teste 1 - Resposta OK](./img/teste1.png)
+
+### 🔹 Teste 2 – Verificação de estrutura de dados
+![Teste 2 - Estrutura](./img/teste2.png)
+
+### 🔹 Teste 3 – Teste negativo com resposta inválida
+![Teste 3 - Teste Negativo](./img/teste3.png)
+
 ---
 
 ## 🌐 Visualizar página completa

@@ -67,4 +67,4 @@ Este projeto demonstra minha capacidade de:
 
 ## 📫 Contato
 
-Quer saber mais ou me dar um feedback? Me chama lá no [LinkedIn](https://www.linkedin.com/in/agatha-amorim/)!
+Quer saber mais ou me dar um feedback? Me chama lá no [LinkedIn](https://www.linkedin.com/in/agathasiqueiradeamorim/)!

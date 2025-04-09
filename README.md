@@ -1,55 +1,70 @@
-# 🐾 Projeto QA – The Dog API | Testes com Postman
+# 🐶 Projeto de Teste de API - The Dog API
 
-Este repositório contém um projeto prático de Qualidade de Software (QA) com foco em testes manuais e automatizados utilizando a [The Dog API](https://thedogapi.com/). O projeto inclui:
-
-- Testes positivos e negativos em endpoints REST
-- Scripts automatizados no Postman
-- Prints de evidências
-- Documentação estruturada em HTML
+Este projeto faz parte do meu portfólio como QA em formação. Aqui você encontrará exemplos de testes manuais e automatizados utilizando a **The Dog API**, com foco em requisições GET e validações de resposta.
 
 ---
 
-## 🌐 Visualizar página completa
+## 🚀 Ferramentas Utilizadas
 
-➡️ Acesse o projeto online pelo GitHub Pages:  
-👉 [Clique aqui para abrir a documentação](https://agathaamorinhc.github.io/qa-dog-api-tests/)
-
-
-
----
-
-## 🛠️ Ferramentas utilizadas
-
-- Postman  
-- JavaScript (scripts de teste)  
-- Git & GitHub  
-- HTML + Markdown  
-- JMeter (em estudo)
+- [Postman](https://www.postman.com/)
+- The Dog API: [https://thedogapi.com](https://thedogapi.com)
+- JSON Schema Validator (via script Postman)
+- Testes manuais e testes automatizados com scripts de validação
 
 ---
 
-## 💡 Objetivo
+## 🔍 Casos de Teste
 
-Demonstrar habilidades como QA Jr. em testes manuais, análise de APIs, automação básica e documentação de evidências de testes. Este projeto faz parte do meu portfólio como estudante de Segurança Cibernética com foco em Qualidade de Software.
-
-## 📸 Evidências Visuais
-
-Abaixo, prints demonstrando os testes automatizados executados com o Postman:
-
-### 🔹 Teste 1 – Validação da resposta bem-sucedida
-![Teste 1 - Resposta OK](./img/teste1.png)
-
-### 🔹 Teste 2 – Verificação de estrutura de dados
-![Teste 2 - Estrutura](./img/teste2.png)
-
-### 🔹 Teste 3 – Teste negativo com resposta inválida
-![Teste 3 - Teste Negativo](./img/teste3.png)
-
+| ID do Teste | Descrição                                 | Método | Status Esperado | Resultado |
+|-------------|--------------------------------------------|--------|------------------|-----------|
+| TC001       | Consultar lista de raças                   | GET    | 200 OK           | ✅ Sucesso |
+| TC002       | Buscar imagem aleatória de cachorro        | GET    | 200 OK           | ✅ Sucesso |
+| TC003       | Requisição com endpoint inválido           | GET    | 404 Not Found    | ❌ Erro previsto |
 
 ---
 
-## 👩‍💻 Autora
+## 🧪 Validações Automatizadas
 
-Agatha Amorim  
-[LinkedIn](https://www.linkedin.com/in/agathasiqueiradeamorim)  
-[GitHub](https://github.com/agathapro)
+Utilizei o **Test script** do Postman para validar os seguintes critérios:
+
+- Código de status da resposta  
+- Tempo de resposta  
+- Formato da resposta em JSON  
+- Presença de campos obrigatórios  
+- Mensagens de erro para endpoints incorretos
+
+---
+
+## 📸 Prints dos Testes
+
+### ✅ TC001 - Lista de raças (GET `/breeds`)
+![Lista de raças](./API1.png)
+
+---
+
+### ✅ TC002 - Imagem aleatória de cachorro (GET `/images/search`)
+![Imagem aleatória](./API2.png)
+
+---
+
+### ❌ TC003 - Endpoint incorreto (GET `/breedz`)
+![Requisição inválida](./API3.png)
+
+---
+
+## 💡 Conclusão
+
+Este projeto demonstra minha capacidade de:
+
+- Analisar documentação de API  
+- Criar cenários de teste baseados em requisitos  
+- Validar respostas com automação via Postman  
+- Documentar e evidenciar testes com prints
+
+🔗 **Objetivo:** Mostrar domínio prático em testes de APIs RESTful.
+
+---
+
+## 📫 Contato
+
+Quer saber mais ou me dar um feedback? Me chama lá no [LinkedIn](https://www.linkedin.com/in/agatha-amorim/)!
